@@ -1,0 +1,28 @@
+{
+  "name": "toy-rxjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mephistorine/toy-rxjs.git"
+  },
+  "keywords": [
+    "rxjs",
+    "toy",
+    "education"
+  ],
+  "author": "Sam Bulatov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mephistorine/toy-rxjs/issues"
+  },
+  "homepage": "https://github.com/mephistorine/toy-rxjs#readme",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  }
+}

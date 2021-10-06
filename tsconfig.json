@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "umd",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "declarationMap": true,
+    "noEmitOnError": true,
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "target": "ES6"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
